@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Home</title>
         <link rel="stylesheet" href=".bootstrap-3.3.6/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href=".bootstrap-3.3.6/dist/css/bootstrap.css">
-        <script type="text/javascript" src=".bootstrap-3.3.6/js/location.js">
+        <!--<link rel="stylesheet" href=".bootstrap-3.3.6/dist/css/bootstrap.css">
+        <script type="text/javascript" src=".bootstrap-3.3.6/js/location.js">-->
 
         </script>
 
