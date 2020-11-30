@@ -10,14 +10,14 @@
 
 
     <body>
-        <nav class="navbar navbar-default">  
+        <nav class="navbar navbar-default" >  
             <div class="container-fluid">  
               <div class="navbar-header">  
                 <a class="navbar-brand" href="#">Port OF Tema</a>  
               </div>  
-              <ul class="nav navbar-nav"> 
-                t 
-                <li class="active"><a href="#">Home</a></li>  
+              <ul class="nav navbar-nav"style="float:right"> 
+                
+                <li class="active"><a href="index.html">Home</a></li>  
                 <li><a href="book.php">Book a service</a></li>  
                 <li><a href="process.php">Process</a></li>  
                 <li><a href="about.html">About</a></li>  
