@@ -40,7 +40,7 @@
             </section>
           </div>
           <div class="container">
-            <form style="width:300px" action="book.php" method="post" role="form" >
+            <form style="width:300px" action="connect_db.php" method="post" role="form" >
               <div class =form-group>
               <label for="compname">Company/Individual name</label>
               <input  id="compname" name="compname" type= "text" class="form-control" placeholder="Enter Company name" value="">
@@ -82,28 +82,7 @@
 </html>
 
 
-<?php
-  require_once ("connect_db.php");
-  if(isset($_POST["details"])){
-    $logistic_id= uniqid();
-    $compname=$_POST["compname"];
-    $name_logis=$_POST["namelogistic"];
-    $weight=$_POST["weight"];
-    $location=$_POST['locationproduct'];
 
-    $sql = "INSERT INTO shipping_companies (logistics_id,Comp_name,name_logistic,Weight,location) VALUES ('$logistic_id','$compname','$name_logis','$weight','$location')";
-    if ($ship_db->get_conn()->query($sql)===TRUE) {
-      
-      echo "New record created succesfully";
-    }else {
-      echo " Error: " .$sql . "<br>" . $ship_db->get_conn()->error;
-    }
-    
-  }
- 
-  //$ship_db->getconn();
-  
-?>
 
 
 
